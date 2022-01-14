@@ -30,6 +30,7 @@ jobs:
         with:
           node-version: 14.x
           cache: npm
+      - name: Build
         run: |
           npm ci
           npm run build
