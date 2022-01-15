@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Junjie Zhou Pages',
-    tagline: 'Dinosaurs are cool',
+    tagline: 'Hi, this is Junjie Zhou, currently a graduated student majoring in computer science. My research interest lies in privacy protection and data security. This repo preserves notes for lectures that I learned and papers that I read.',
     url: 'http://www.junjiezhou.cn',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/avator.png',
     organizationName: 'jzhou59', // Usually your GitHub org/user name.
     projectName: 'jzhou59.github.io', // Usually your repo name.
 
@@ -24,12 +24,12 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/jzhou59/jzhou59.github.io/tree/source/',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/jzhou59/jzhou59.github.io/tree/source/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -42,20 +42,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
         navbar: {
-            title: 'My Site',
+            title: 'Home',
             logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
+                alt: 'Home',
+                src: 'img/avator.png',
             },
             items: [{
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Notes',
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    href: 'https://github.com/jzhou59',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -63,28 +63,13 @@ const config = {
         },
         footer: {
             style: 'dark',
-            links: [{
-                    title: 'Docs',
+            links: [
+                {
+                    title: 'Doc',
                     items: [{
-                        label: 'Tutorial',
+                        label: 'Notes',
                         to: '/docs/intro',
                     }, ],
-                },
-                {
-                    title: 'Community',
-                    items: [{
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                        {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
-                        },
-                    ],
                 },
                 {
                     title: 'More',
@@ -94,12 +79,13 @@ const config = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/jzhou59',
                         },
                     ],
                 },
+                {},{},
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Junjie Zhou. Built with Docusaurus.`,
         },
         prism: {
             theme: lightCodeTheme,
