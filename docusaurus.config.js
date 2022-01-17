@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Junjie Zhou Pages',
-    tagline: 'Hi, this is Junjie Zhou, currently a graduated student majoring in computer science. My research interest lies in privacy protection and data security. This repo preserves notes for lectures that I learned and papers that I read.',
+    tagline: 'Hi, this is Junjie Zhou, currently a graduate student. Majoring in computer science, my research interest lies in privacy protection. This repo contains notes for lectures that I learned and papers that I read.',
     url: 'http://www.junjiezhou.cn',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -57,34 +57,34 @@ const config = {
                 {
                     href: 'https://github.com/jzhou59',
                     label: 'GitHub',
-                    position: 'right',
+                    position: 'left',
                 },
             ],
         },
         footer: {
-            style: 'dark',
-            links: [
-                {
-                    title: 'Doc',
-                    items: [{
-                        label: 'Notes',
-                        to: '/docs/intro',
-                    }, ],
-                },
-                {
-                    title: 'More',
-                    items: [{
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/jzhou59',
-                        },
-                    ],
-                },
-                {},{},
-            ],
+            style: 'light',
+            // links: [
+            //     {
+            //         title: 'Doc',
+            //         items: [{
+            //             label: 'Notes',
+            //             to: '/docs/intro',
+            //         }, ],
+            //     },
+            //     {
+            //         title: 'More',
+            //         items: [{
+            //                 label: 'Blog',
+            //                 to: '/blog',
+            //             },
+            //             {
+            //                 label: 'GitHub',
+            //                 href: 'https://github.com/jzhou59',
+            //             },
+            //         ],
+            //     },
+            //     {},{},
+            // ],
             copyright: `Copyright © ${new Date().getFullYear()} Junjie Zhou. Built with Docusaurus.`,
         },
         prism: {
