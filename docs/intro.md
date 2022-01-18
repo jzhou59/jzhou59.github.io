@@ -2,34 +2,10 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
+Hi, this is Junjie Zhou, currently a graduate student, majoring in computer science.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+My research interest lies in privacy protection and career interest lies in back-end development.
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+This repo contains notes for lectures that I learned and papers that I read:
+- [Java Programming](java-programming/introduction)
