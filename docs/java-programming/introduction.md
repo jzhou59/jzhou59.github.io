@@ -2,5 +2,7 @@
 sidebar_position: 1
 ---
 
-# Java
+# Overview
 - Notes for [Object Oriented](./object-oriented.md)
+- Notes for [Nested Class](./nested-class.md)
+- Notes for [Lambda Expression](./lambda.md)
