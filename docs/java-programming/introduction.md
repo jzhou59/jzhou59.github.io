@@ -3,8 +3,10 @@ sidebar_position: 1
 ---
 
 # Overview
-- Notes for [Object Oriented](./object-oriented.md)
-- Notes for [Nested Class](./nested-class.md)
-- Notes for [Lambda Expression](./lambda.md)
-- Notes for [Function Reference](./function-reference.md)
-- Notes for [Fundamental Data Type](./fundamental-datatype.md)
+- Notes on Object Oriented:
+    - [Object Oriented](./oop/object-oriented.md)
+    - [Nested Class](./oop/nested-class.md)
+    - [Lambda Expression](./oop/lambda.md)
+    - [Function Reference](./oop/function-reference.md)
+- Notes on Data Type
+    - [Fundamental Data Type](./data-type/fundamental-datatype.md)

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 # Object Oriented
 ## 1. 思想 -> 类
@@ -41,7 +41,7 @@ class Car extends Vehicle{
 }
 ```
 在内存当中，继承的编排如下图
-![static and extend](../../static/img/java-programming/0_object_oriented_extend.jpg)
+![static and extend](../../../static/img/java-programming/0_object_oriented_extend.jpg)
 
 接口就是功能，或者说规定了类需要实现的功能。再拿汽车来举例子，汽车继承自车，那么车的前进后退功能肯定也是继承过来了。但是现在出现了一个飞行汽车，那这到底是继承汽车还是继承飞机呢？这种情况，可以规定一个飞行功能的接口，使用汽车实现这个接口，那么飞行的功能汽车也有了。问题又来了，现在出现一个水陆空三栖的车咋办？再实现一个游泳的接口就可以啦。实例代码如下：
 ```Java

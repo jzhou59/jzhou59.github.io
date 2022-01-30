@@ -19,7 +19,7 @@ Java使用了八种基本数据类型，这八种基本数据类型可以满足�
 - 计算机系统是分层次的，处在第n层的人，通常要了解第n-1层提供的服务；而类型存储和计算方式这一部分作为第n-1层的内容，有利于深刻了解第n层的输入和输出原理。同时有利于回答基本数据类型“是什么”。
 - 除此之外，使用声明定义赋值运算具体阐述“怎么做”，介绍数据类型如何被利用，以及在利用的过程当中有什么技巧。
 
-![avatar](../../static/img/java-programming/1_fundamental_datatype_catagory.png)
+![avatar](../../../static/img/java-programming/1_fundamental_datatype_catagory.png)
 
 
 
@@ -157,8 +157,8 @@ byte bByte = 0b1010_1010;
 ## 4. float double
 ### 4.1 类型存储和计算方式
 参照IEEE 754-2019标准，可以看出浮点类型小数在计算机程序中的存储方式。下面两幅图分别表示了，float和double类型的标准。
-![float](../../static/img/java-programming/1_fundamental_datatype_float.png)
-![float](../../static/img/java-programming/1_fundamental_datatype_double.png)
+![float](../../../static/img/java-programming/1_fundamental_datatype_float.png)
+![float](../../../static/img/java-programming/1_fundamental_datatype_double.png)
 以float进行举例，sign为符号位，exponent为指数位或者阶位，fraction为尾数位，计算方式为(sign&1)1.fraction*2^(exponent-127)
 
 浮点数的加减分为五个步骤
