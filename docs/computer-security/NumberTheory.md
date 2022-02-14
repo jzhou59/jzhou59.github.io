@@ -34,7 +34,7 @@ A5: commutative - a·b = b·a对于所有a，b都成立。
 举例：（Z，+）是一个abelian group，因为满足A1~A5的所有条件。表示当前组的元素是有整数集合Z构成的，且当前组的操作符‘·’实例化为‘+’。
 
 **Cyclic Group**
-在cyclic group中所有的元素都是某个数a的幂。此时，a被称为这个组的generator，并把组表示为G=\<a>。一个cyclic一定是abelian的，内部的元素数量有限和无限都是可以的。
+在cyclic group中所有的元素都是某个数a的幂。此时，a被称为这个组的generator，并把组表示为```G=<a>```。一个cyclic一定是abelian的，内部的元素数量有限和无限都是可以的。
 ### 3.2 环Ring
 通常表示为{R，+，x}，在满足成为一个Group的基础上，还需要满足M1~M3的条件。本质上，一个Ring中的元素进行相互之前的加减乘操作不需要使用到Ring意外的元素。
 M1：closure under multiplication - 如果a和b均属于Ring，那么ab也属于Ring。
@@ -108,7 +108,7 @@ GP中的元素一定是一个数p的幂，表示为GP(p^n)。
 针对欧拉定理中的指数，有可能存在比∮(n)还要小，但是模取结果也为1的值，如果是的模取解雇为1的最小指数即为∮(n)，那么这个a就被称为原始根。
 
 ## 十、DLP(Discrete Logarithm Problem)
-G = \<a> 给定a和b∈G，找到一个指数x使得a^x = b。
+```G = <a>``` 给定a和b∈G，找到一个指数x使得a^x = b。
 
 
 
