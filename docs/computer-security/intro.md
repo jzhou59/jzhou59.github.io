@@ -60,7 +60,7 @@ Service-->System
 3. 更改 modification
 4. 伪造 fabrication
 
-![攻击角度.png](https://upload-images.jianshu.io/upload_images/23770791-b21b4327fef3aeae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![攻击角度.png](../../static/img/computer-security/1_attack_catagory.png)
 
 #### 2.1.1 主动攻击
 即对应到攻击内容的 [1][3][4]，具体的形式有伪造数据，更改数据，重发数据，对某一个特定目标实施拒绝访问攻击等等。
@@ -107,9 +107,9 @@ Service-->System
 
 ## 三、计算机安全模型
 ### 3.1 数据传输模型
-![数据传输模型.png](https://upload-images.jianshu.io/upload_images/23770791-168575b81e9d6b9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![数据传输模型.png](../../static/img/computer-security/1_data_transfer_model.png)
 
 
 ### 3.2 访问控制模型
-![访问控制模型.png](https://upload-images.jianshu.io/upload_images/23770791-5c7def6ac7c59fd3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![访问控制模型.png](../../static/img/computer-security/1_access_control_model.png)
 
