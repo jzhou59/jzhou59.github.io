@@ -31,7 +31,7 @@ sidebar_position: 2
 #### 凯撒加密（Ceaser Cipher）
 C = E(k,P) = (P+k) mod 26
 P = D(k,C) = (C-k) mod 26
-![凯撒加密.png](https://upload-images.jianshu.io/upload_images/23770791-7d3c1daa5abab282.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![凯撒加密.png](../../static/img/computer-security/2_ceasar_cipher.png)
 
 
 #### 单字母映射加密
