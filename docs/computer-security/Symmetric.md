@@ -13,7 +13,7 @@ sidebar_position: 3
 ### 1.2 对称加密模型
 通讯双方共享密钥，加密方运行加密算法，解密方运行对应的解密算法，文本信息在传输过程中以密文的形式存在。
 在已知加解密算法的前提下，这个模型可以通过平均50%的尝试次数进行暴力破解。
-![对称加密模型.png](https://upload-images.jianshu.io/upload_images/23770791-5e963fb938605e33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![对称加密模型.png](../../static/img/computer-security/3_symmetric_model.png)
 
 ### 1.3 对称加密的原则
 1. 通过密钥发布中心（KDC:Key Distribution Center）共享同一个密钥。
@@ -55,7 +55,7 @@ C = P⊕K
 2. 首先将R与密钥进行对应的操作。
 3. 然后将操作后的R与L进行异或生成R’。
 4. 之后将R本身作为L’放置在R’的左侧。
-![Feistel结构.png](https://upload-images.jianshu.io/upload_images/23770791-71df17a3a9ee5e3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Feistel结构.png](../../static/img/computer-security/3_feistel_structure.png)
 
 从以上的结构中可知，这种结构的变量主要有key，F，split(block)，round。
 ### 2.2.2 DES加密
@@ -82,7 +82,7 @@ Key由56bits构成，block由64bits构成，循环次数是16次，F包括S-Box�
 3. 将异或后的文本拼接起来形成密文。
 特征：虽然使用相同的key，但组与组之间互不干扰，某一组发生了错误不会传染。
 劣势：同样的文本会加密依然生成同样的文本，从而文本中的部分模式就被保存了下来。
-![ECB模式.png](https://upload-images.jianshu.io/upload_images/23770791-326ecac8abc37bd3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ECB模式.png](../../static/img/computer-security/3_ecb_model.png)
 
 ### 3.2 CBC（Cipher Block Chaining）
 1. 组与IV进行异或。
@@ -90,7 +90,7 @@ Key由56bits构成，block由64bits构成，循环次数是16次，F包括S-Box�
 3. 将前一组的block作为下一组的IV进行循环。
 特点：重复的文本不会再生成同样的重复密文，有效的破坏了文本中的模式。
 劣势：互相依赖，错误具有传染性，如果某一组丢失，那么下一组无法正确的解读。
-![CBC模式.png](https://upload-images.jianshu.io/upload_images/23770791-f2c3eaec6a587a78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![CBC模式.png](../../static/img/computer-security/3_cbc_model.png)
 
 ### 3.3 CFB（Cipher feedback）
 有很多可选的参数 CFB-1,CFB-8,CFB-64...，其中的数字分别代表一个组的大小s。
@@ -98,12 +98,12 @@ Key由56bits构成，block由64bits构成，循环次数是16次，F包括S-Box�
 2. 选择左边的s个bit与明文中的s个bit进行异或。
 3. 将得到的大小为s的密文作为下一组的IV的一个参数。
 用途：流数据加密；身份认证。
-![CFB模式.png](https://upload-images.jianshu.io/upload_images/23770791-64fc990a551e1686.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![CFB模式.png](../../static/img/computer-security/3_cfb_model.png)
 
 ### 3.4 OFB（Output feedback）
 与CFB类似，但并没有将密文作为下一组IV的参数，而是将IV和密钥生成的IV'中的左边s个bit作为下一组IV的参数。
 用途：嘈杂网络中的流加密。
-![OFB模式.png](https://upload-images.jianshu.io/upload_images/23770791-5998684e6f16ba41.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![OFB模式.png](../../static/img/computer-security/3_ofb_model.png)
 
 ### 3.5 CTR（Counter）
 1. 分组。
@@ -113,4 +113,4 @@ Key由56bits构成，block由64bits构成，循环次数是16次，F包括S-Box�
 优点：速度快，效率高，可以并行计算，随机数能够保证安全。
 缺点：随机数的生成需要是尽量随机且每一个组不能相同，需要维护大量的随机数。
 用途：高速网络的加密。
-![CTR模式.png](https://upload-images.jianshu.io/upload_images/23770791-349c5e86c811e22e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![CTR模式.png](../../static/img/computer-security/3_ctr_model.png)
