@@ -53,7 +53,7 @@ M7：Multiplicative inverse - 对于除0之外的所有a，都有一个a^-1使�
 ```math
 aa^-1=a^-1a=1
 ```
-![组环域关系.png](https://upload-images.jianshu.io/upload_images/23770791-d49946d924e0fd92.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![组环域关系.png](../../static/img/computer-security/4_groupcyclefield.png)
 
 
 ## 四、模运算
@@ -71,7 +71,7 @@ if (a+b)=(a+c) mod n, then b=c mod n;
 when a and n are relative prime, if (a*b) = (a*c) mod n, then b = c mod n.
 ```
 3. Ring中的元素进行模取运算的时候需要有的特征。
-![组环域模取运算特点.png](https://upload-images.jianshu.io/upload_images/23770791-e5119c57642f59b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![组环域模取运算特点.png](../../static/img/computer-security/4_modgroupcyclefield.png)
 
 
 ## 五、Galois Field
@@ -98,7 +98,7 @@ GP中的元素一定是一个数p的幂，表示为GP(p^n)。
 
 ## 七、Miller-Robin 算法
 这是一个用于判断某个数是否为素数的算法。
-![Miller-Robin.png](https://upload-images.jianshu.io/upload_images/23770791-5d166f586208900e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Miller-Robin.png](../../static/img/computer-security/4_millerrobin.png)
 
 
 ## 八、CRT(Chinese Reminder Theorem)
