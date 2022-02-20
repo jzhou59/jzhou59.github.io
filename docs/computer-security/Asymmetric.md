@@ -7,7 +7,7 @@ sidebar_position: 5
 ## 一、公钥（非对称）加密介绍
 用途：加解密，数字签名，对称加密密钥交换。同样的算法和概念。
 常见的非对称加密算法的适用场景：
-![常见的非对称加密算法适用场景.png](https://upload-images.jianshu.io/upload_images/23770791-f11a9993419bbfbf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![常见的非对称加密算法适用场景.png](../../static/img/computer-security/5_asymmetric_application.png)
 
 加密步骤：明文 -> 用接收方的公钥进行加密 -> 密文发送 -> 用接收方的私钥进行解密 -> 明文
 元素：公开元素，包括公钥和算法；私有元素，包括私钥。
