@@ -24,7 +24,7 @@ among which C and e are public while d is private
 ### 2.2 密钥生成步骤：
 1. 选择两个足够大的p和q，并且要保证p和q是素数。
 2. 计算 n = p * q。
-3. 计算phi(n)[^1] = (p-1)*(q-1)。
+3. 计算phi(n) = (p-1)*(q-1)。
 4. 选择e，且要确保GCD(e,phi(n)) = 1（根据域理论，只有这种情况才能确保e在模取算法中有乘法逆），且e∈[1,phi(n)]。
 5. 计算 d = e^(-1) mod phi(n)，即为d·e = 1 mod phi(n)。
 
@@ -126,5 +126,3 @@ among which C and e are public while d is private
 1. 适用于大数据。
 2. 一对多加密。
 3. 加解密的复杂度和铭文密文的数量是独立于用户属性特征之外的。
-
-[^1]: phi 即为数论当中的 ∮。
