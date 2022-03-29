@@ -15,7 +15,7 @@ There are several tools for cargo to compile/create/build/check/release etc.
     - ```cargo build --release```: build the project and put executable file under target\release folder (in this way, executable file is optimized than ```cargo build```)
     - ```cargo check```: check whether project has been build
 
-## Example Prject
+## Example Project
 The toc of ```cargo new hello``` project is as follows:
 ```shell
 |--hello : project name
