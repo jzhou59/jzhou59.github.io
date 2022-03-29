@@ -22,6 +22,9 @@ More references could be found at:
 2. Double click to run it and the RustUP-init will automatically check whether C++ has been installed.
 3. Follow the default procedure and wait...
 
+## Update Rust
+Simply typing ```rustup update``` will do the job of update.
+
 ## Installed Contents
 If installation has followed what is default, two folders is created under home folder: ```.cargo``` and ```.rustup```
 Also, the RustUP-init program has updated the ```path``` in os environment.
