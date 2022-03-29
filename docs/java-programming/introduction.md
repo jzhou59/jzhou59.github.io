@@ -10,3 +10,5 @@ sidebar_position: 1
     - [Function Reference](./oop/function-reference.md)
 - Notes on Data Type
     - [Fundamental Data Type](./data-type/fundamental-datatype.md)
+- Notes on Maven
+    - [Maven XML](./maven/XML.md)
