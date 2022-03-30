@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjunjiezhou=self.webpackChunkjunjiezhou||[]).push([[1713],{3457:function(a){a.exports=JSON.parse('{"welcome":{"allTagsPath":"/blog/tags","name":"welcome","count":1,"permalink":"/blog/tags/welcome"},"hola":{"allTagsPath":"/blog/tags","name":"hola","count":1,"permalink":"/blog/tags/hola"}}')}}]);
