@@ -11,3 +11,6 @@ This repo contains notes for lectures that I learned and papers that I read:
 - [Java Programming](java-programming/introduction)
 - [Computer Security](computer-security/intro.md)
 - [Rust Programming](rust-programming/intro.md)
+
+Also, it contains some works that I have done during GSoC:
+- [GSoC 2022](gsoc-2022/intro.md)
