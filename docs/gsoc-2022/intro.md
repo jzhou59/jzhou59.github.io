@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-## Fitbit Web API Subscription and Nutrition API Extension
+# Fitbit Web API Subscription and Nutrition API Extension
 
 **Student**: Junjie Zhou
 
