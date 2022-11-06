@@ -1,0 +1,1 @@
+This repo contains notes, blogs and so on relating to my programming.
