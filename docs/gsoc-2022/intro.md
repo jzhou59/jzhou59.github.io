@@ -9,9 +9,9 @@ sidebar_position: 1
 **Mentor**: Yatharth Ranjan
 
 Links to accomplished work:
-- Update current Web API(heart-rate-related and sleep related) requests: [RADAR-REST-Connector/pull/92](https://github.com/RADAR-base/RADAR-REST-Connector/pull/92)
-- Add another Web API(nutrition) request for Kafka:  [RADAR-Schemas/pull/315](https://github.com/RADAR-base/RADAR-Schemas/pull/315)
-- Integrate a Fitbit subscription API to ```RADAR-REST-Connector```(moved to ```RADAR-PushEndpoint```) so that it can retrieve data when necessary: [RADAR-PushEndpoint/pull/52](https://github.com/RADAR-base/RADAR-PushEndpoint/pull/52)
+- Update current Web API(heart-rate-related and sleep related) requests: [RADAR-REST-Connector/pull/92(merged)](https://github.com/RADAR-base/RADAR-REST-Connector/pull/92)
+- Add another Web API(nutrition) request for Kafka:  [RADAR-Schemas/pull/315(merged)](https://github.com/RADAR-base/RADAR-Schemas/pull/315)
+- Integrate a Fitbit subscription API to ```RADAR-REST-Connector```(moved to ```RADAR-PushEndpoint```) so that it can retrieve data when necessary: [RADAR-PushEndpoint/pull/52(unmerged)](https://github.com/RADAR-base/RADAR-PushEndpoint/pull/52)
 
 ## Introduction
 
@@ -33,6 +33,11 @@ More specific, such notification dealing has been moved to ```RADAR-PushEndpoint
 
 ## Testing Result
 To be updated...
+
+## What's left
+- Testing in the Internet
+- Getting the PR merged
+- Future contributions(codes/docss/...)
 
 ## Discussions
 
